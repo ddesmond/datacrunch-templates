@@ -10,8 +10,7 @@ apt install -y plocate nano screen zip curl wget busybox
 # python
 curl https://pyenv.run | bash
 
-echo '
-# Load pyenv automatically by appending
+echo '# Load pyenv automatically by appending
 # the following to
 # ~/.bash_profile if it exists, otherwise ~/.profile (for login shells)
 # and ~/.bashrc (for interactive shells) :
@@ -25,6 +24,7 @@ eval "$(pyenv virtualenv-init -)"
 
 source ~/.bashrc
 
+eval "$(pyenv virtualenv-init -)"
 # install 3.12
 pyenv install 3.12
 pyenv global 3.12
