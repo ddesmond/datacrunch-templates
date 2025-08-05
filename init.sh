@@ -1,3 +1,4 @@
+#!/bin/bash
 # OS
 apt update -y
 apt install -y build-essential libssl-dev zlib1g-dev libbz2-dev \

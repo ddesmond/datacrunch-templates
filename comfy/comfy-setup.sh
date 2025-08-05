@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # install fresh pull
 
 mkdir -p /outputs

@@ -1,3 +1,4 @@
+#!/bin/bash
 # wan deps
 echo "Comfy / Wan deps"
 apt-get update -y

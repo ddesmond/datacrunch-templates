@@ -1,3 +1,4 @@
+#!/bin/bash
 for repo in \
 https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git \
 https://github.com/kijai/ComfyUI-KJNodes.git \
