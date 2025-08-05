@@ -10,19 +10,11 @@ apt install -y plocate nano screen zip curl wget busybox
 # python
 curl https://pyenv.run | bash
 
-echo '# Load pyenv automatically by appending
-# the following to
-# ~/.bash_profile if it exists, otherwise ~/.profile (for login shells)
-# and ~/.bashrc (for interactive shells) :
-
-export PYENV_ROOT="$HOME/.pyenv"
+echo 'export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"' >> ~/.bashrc
 
 source ~/.bashrc
-
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
 
 eval "$(pyenv virtualenv-init -)"
 
