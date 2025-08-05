@@ -4,8 +4,9 @@ echo "Setting up Comfy!"
 
 cd /opt
 
-git pull https://github.com/ddesmond/datacrunch-templates.git
+git clone https://github.com/ddesmond/datacrunch-templates.git
 cd /opt/datacrunch-templates
+
 
 # rundown
 bash init.sh > /opt/logs-init.txt
