@@ -19,12 +19,14 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"' >> ~/.bashrc
 
-
-eval "$(pyenv virtualenv-init -)"
-
 source ~/.bashrc
 
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+
 eval "$(pyenv virtualenv-init -)"
+
+
 # install 3.12
 pyenv install 3.12
 pyenv global 3.12
