@@ -21,6 +21,7 @@ echo "Run: Init"
 bash init.sh > /opt/logs-init.txt
 
 echo "Run: Pyenv"
+bash setup_pyenv.sh
 eval "$(pyenv virtualenv-init -)"
 source ~/.bashrc
 
