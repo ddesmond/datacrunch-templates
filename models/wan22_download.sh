@@ -17,7 +17,7 @@ wget -P $MODELS/vae https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/
 
 wget -P $MODELS/text_encoders https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/main/models_t5_umt5-xxl-enc-bf16.pth
 wget -P $MODELS/text_encoders https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors
-wget -P $MODELS/diffusion_models
+
 
 # loras
 wget -P $MODELS/loras https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan22-Lightning/Wan2.2-Lightning_T2V-A14B-4steps-lora_HIGH_fp16.safetensors
