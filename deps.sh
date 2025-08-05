@@ -1,6 +1,6 @@
 #!/bin/bash
 # wan deps
-echo "Comfy / Wan deps"
+echo "Run: Install Comfy / Wan deps"
 apt-get update -y
 
 apt-get install -y --no-install-recommends \
