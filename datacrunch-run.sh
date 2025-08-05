@@ -18,6 +18,16 @@ git pull
 echo "Run: Init"
 source init.sh #> /opt/logs-init.txt
 
+echo "Run: Setup Pyenv 3.12"
+source setup_pyenv.sh #> /opt/logs-init.txt
+
+source ~/.bashrc
+
+echo "Run: Eval pyenv and set global"
+eval "$(pyenv init -)"
+pyenv global 3.12
+
+
 echo "Run: Update pip"
 pip install --upgrade pip
 
