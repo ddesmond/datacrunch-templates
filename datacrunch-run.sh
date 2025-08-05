@@ -8,13 +8,13 @@ git pull https://github.com/ddesmond/datacrunch-templates.git
 cd /opt/datacrunch-templates
 
 # rundown
-bash init.sh
-bash deps.sh
+bash init.sh > /opt/logs-init.txt
+bash deps.sh > /opt/logs-deps.txt
 cd comfy
-bash comfy-setup.sh
-bash comfy-nodes.sh
+bash comfy-setup.sh > /opt/logs-setup.txt
+bash comfy-nodes.sh > /opt/logs-nodes.txt
 echo "Setup done!"
 
 echo "Run Comfy"
 cd /opt/datacrunch-templates
-bash run.sh
+bash run.sh > /opt/logs-runcomfy.txt
