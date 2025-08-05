@@ -36,10 +36,11 @@ source deps.sh #> /opt/logs-deps.txt
 
 
 echo "Run: Setup Comfy"
-cd comfy
+cd /opt/datacrunch-templates/comfy
 source comfy-setup.sh #> /opt/logs-setup.txt
 
 echo "Run: Setup Comfy nodes"
+cd /opt/datacrunch-templates/comfy
 source comfy-nodes.sh #> /opt/logs-nodes.txt
 
 
