@@ -9,6 +9,8 @@ cd /opt/datacrunch-templates
 
 # rundown
 bash init.sh > /opt/logs-init.txt
+source ~/.bashrc
+
 bash deps.sh > /opt/logs-deps.txt
 cd comfy
 bash comfy-setup.sh > /opt/logs-setup.txt
