@@ -32,4 +32,4 @@ pyenv install 3.12
 pyenv global 3.12
 
 # verify
-python --version
+python3 --version
