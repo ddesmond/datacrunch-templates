@@ -18,27 +18,33 @@ git pull
 echo "Run: Init"
 bash init.sh #> /opt/logs-init.txt
 
-echo "Run: Pyenv"
-bash setup_pyenv.sh
+echo "Run: Update pip"
 eval "$(pyenv virtualenv-init -)"
 source ~/.bashrc
+pip install --upgrade pip
 
 echo "Run: Deps"
-bash deps.sh #> /opt/logs-deps.txt
-
 eval "$(pyenv virtualenv-init -)"
 source ~/.bashrc
+bash deps.sh #> /opt/logs-deps.txt
+
 
 echo "Run: Setup Comfy"
+eval "$(pyenv virtualenv-init -)"
+source ~/.bashrc
 cd comfy
 bash comfy-setup.sh #> /opt/logs-setup.txt
 
 echo "Run: Setup Comfy nodes"
+eval "$(pyenv virtualenv-init -)"
+source ~/.bashrc
 bash comfy-nodes.sh #> /opt/logs-nodes.txt
 
 
 echo "Setup done!"
 
 echo "Run Comfy app!"
+eval "$(pyenv virtualenv-init -)"
+source ~/.bashrc
 cd /opt/datacrunch-templates
 bash run.sh #> /opt/logs-runcomfy.txt

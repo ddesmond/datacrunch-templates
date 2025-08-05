@@ -26,5 +26,3 @@ echo "Run: Verify python version"
 # verify
 python3 --version
 
-echo "Run: Update pip"
-pip install --upgrade pip
