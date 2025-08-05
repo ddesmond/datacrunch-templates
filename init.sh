@@ -16,13 +16,13 @@ echo '# Load pyenv automatically by appending
 # and ~/.bashrc (for interactive shells) :
 
 export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"' >> ~/.bashrc
 
 source ~/.bashrc
 
 export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="$PYENV_ROOT/bin:$PATH"
 
 eval "$(pyenv virtualenv-init -)"
 

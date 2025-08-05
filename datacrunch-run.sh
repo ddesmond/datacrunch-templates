@@ -12,7 +12,7 @@ cd /opt/datacrunch-templates
 bash init.sh > /opt/logs-init.txt
 
 export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="$PYENV_ROOT/bin:$PATH"
 
 eval "$(pyenv virtualenv-init -)"
 source ~/.bashrc
