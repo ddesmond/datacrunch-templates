@@ -3,6 +3,8 @@
 echo "Setup work ENVS"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+export PIP_ROOT_USER_ACTION=ignore
+
 
 echo "Setting up Comfy!"
 cd /opt
@@ -26,6 +28,7 @@ bash deps.sh > /opt/logs-deps.txt
 
 eval "$(pyenv virtualenv-init -)"
 source ~/.bashrc
+
 echo "Run: Setup Comfy"
 cd comfy
 bash comfy-setup.sh > /opt/logs-setup.txt

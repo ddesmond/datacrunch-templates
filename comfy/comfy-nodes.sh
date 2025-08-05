@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Run: Setup comfy nodes!"
+
 for repo in \
 https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git \
 https://github.com/kijai/ComfyUI-KJNodes.git \
@@ -27,7 +29,8 @@ https://github.com/kijai/ComfyUI-WanVideoWrapper.git \
 https://github.com/chflame163/ComfyUI_LayerStyle_Advance.git \
 https://github.com/BadCafeCode/masquerade-nodes-comfyui.git \
 https://github.com/1038lab/ComfyUI-RMBG.git \
-https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager \
+https://github.com/crystian/ComfyUI-Crystools \
+https://github.com/ltdrdata/ComfyUI-Manager \
 https://github.com/M1kep/ComfyLiterals.git; \
 do \
     cd /opt/ComfyUI/custom_nodes; \
@@ -44,3 +47,5 @@ do \
         python "/opt/ComfyUI/custom_nodes/$repo_dir/install.py"; \
     fi; \
 done
+
+echo "Run: Setup comfy nodes DONE!"
