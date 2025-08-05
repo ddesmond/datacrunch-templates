@@ -1,5 +1,7 @@
 #!/bin/bash
-export MODELS=/opt/ComfyUI/models
+
+source ./structure.sh
+export MODELS=/opt/models
 echo "Download models list"
 
 echo "Wan"
@@ -21,8 +23,4 @@ wget -P $MODELS/diffusion_models
 wget -P $MODELS/loras https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan22-Lightning/Wan2.2-Lightning_T2V-A14B-4steps-lora_HIGH_fp16.safetensors
 wget -P $MODELS/loras https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan22-Lightning/Wan2.2-Lightning_T2V-A14B-4steps-lora_LOW_fp16.safetensors
 
-echo "Krea"
-#wget -P $MODELS/diffusion_models https://huggingface.co/Comfy-Org/FLUX.1-Krea-dev_ComfyUI/resolve/main/split_files/diffusion_models/flux1-krea-dev_fp8_scaled.safetensors
-
-echo "Chroma"
 
