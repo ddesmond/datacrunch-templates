@@ -13,7 +13,7 @@ mkdir -p ./models \
 && mkdir -p ./models/controlnet \
 && mkdir -p ./models/diffusers/ \
 && mkdir -p ./models/diffusion_models \
-&& mkdir -p ./models/embeds \
+&& mkdir -p ./models/embeddings \
 && mkdir -p ./models/gligen/ \
 && mkdir -p ./models/hypernetworks/ \
 && mkdir -p ./models/loras/ \
