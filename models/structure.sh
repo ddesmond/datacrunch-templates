@@ -13,9 +13,11 @@ mkdir -p ./models \
 && mkdir -p ./models/controlnet \
 && mkdir -p ./models/diffusers/ \
 && mkdir -p ./models/diffusion_models \
+&& mkdir -p ./models/embeds \
 && mkdir -p ./models/gligen/ \
 && mkdir -p ./models/hypernetworks/ \
 && mkdir -p ./models/loras/ \
+&& mkdir -p ./models/mmaudio/ \
 && mkdir -p ./models/photomaker/ \
 && mkdir -p ./models/style_models \
 && mkdir -p ./models/text_encoders \
