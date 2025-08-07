@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "_____ WARMUP COMFYUI _____"
 
+# LOAD ENVS
+source /opt/datacrunch-templates/env.sh
 
 # link back models here
 if [[ -L /opt/ComfyUI/models ]]
@@ -26,8 +28,7 @@ else
   cp -r /opt/datacrunch-templates/comfy_data/user /opt/ComfyUI/
 fi
 
-# LOAD ENVS
-source /opt/datacrunch-templates/env.sh
+
 
 echo "_____ Startup COMFYUI _____"
 cd /opt/ComfyUI

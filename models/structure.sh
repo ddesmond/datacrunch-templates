@@ -26,3 +26,5 @@ mkdir -p ./models \
 && mkdir -p ./models/upscale_models \
 && mkdir -p ./models/vae \
 && mkdir -p ./models/vae_approx
+
+
