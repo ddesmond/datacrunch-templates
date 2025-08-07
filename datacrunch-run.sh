@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 # written by ddesmond / Aleks Katunar
 # RUN THIS FROM CLI OR DATACRUNCH DASHBOARD as a script!
 
