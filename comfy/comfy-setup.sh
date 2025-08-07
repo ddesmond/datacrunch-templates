@@ -8,5 +8,5 @@ cd /opt/ComfyUI
 
 
 echo "Run: Install requirements"
-pip install --no-cache-dir -r requirements.txt
+uv pip install --no-cache-dir -r requirements.txt
 
