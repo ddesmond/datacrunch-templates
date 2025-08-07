@@ -41,6 +41,7 @@ echo "----------------------------------"
 echo "Run: UV"
 source setup_uv.sh
 source ~/.bashrc
+source $HOME/.local/bin/env
 
 echo "----------------------------------"
 echo "Run: Deps"
