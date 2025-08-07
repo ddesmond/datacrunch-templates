@@ -53,16 +53,16 @@ echo "----------------------------------"
 echo "Run: Deps"
 source deps.sh #> /opt/logs-deps.txt
 
-echo "----------------------------------"
-echo "Run: Setup Comfy"
-cd /opt/datacrunch-templates/comfy
-source comfy-setup.sh #> /opt/logs-setup.txt
 
 echo "----------------------------------"
 echo "Run: Setup Comfy models structure"
 cd /opt/datacrunch-templates/models
 source ./structure.sh #> /opt/logs-nodes.txt
 
+echo "----------------------------------"
+echo "Run: Setup Comfy"
+cd /opt/datacrunch-templates/comfy
+source comfy-setup.sh #> /opt/logs-setup.txt
 
 echo "----------------------------------"
 echo "Run: Setup Comfy nodes"
