@@ -5,4 +5,4 @@ echo "Run: Copy ComfyUI User data"
 
 cd /opt/ComfyUI
 
-cp -r /opt/datacrunch-templates/comfy_data/user /opt/ComfyUI/user
+cp -r /opt/datacrunch-templates/comfy_data/user /opt/ComfyUI/
