@@ -10,7 +10,7 @@ export PIP_ROOT_USER_ACTION=ignore
 export COMFYUI_PATH=/opt/ComfyUI
 export COMFYUI_MODEL_PATH=/opt/models
 export COMFYUI_UI_PORT=8188
-export COMFY_OUTPUTS_PATH=/outputs
+export COMFYUI_OUTPUTS_PATH=/outputs
 
 echo "Setting up Comfy!"
 cd /opt
