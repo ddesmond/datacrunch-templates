@@ -60,7 +60,7 @@ source comfy-setup.sh #> /opt/logs-setup.txt
 
 echo "----------------------------------"
 echo "Run: Setup Comfy models structure"
-cd /opt/datacrunch-templates/comfy/models
+cd /opt/datacrunch-templates/models
 source ./structure.sh #> /opt/logs-nodes.txt
 
 
