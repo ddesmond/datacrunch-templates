@@ -15,7 +15,7 @@ aria2c -d  $MODELS/vae https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/
 aria2c -d  $MODELS/vae https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors -o wan_2.1_vae.safetensors
 aria2c -d  $MODELS/vae https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors -o wan2.2_vae.safetensors
 
-aria2c -d  $MODELS/text_encoders https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/main/models_t5_umt5-xxl-enc-bf16.pth -o umt5_xxl_fp16.pth
+aria2c -d  $MODELS/text_encoders https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/main/models_t5_umt5-xxl-enc-bf16.pth -o t5_umt5-xxl-enc-bf16.pth
 aria2c -d  $MODELS/text_encoders https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors -o umt5_xxl_fp16.safetensors
 
 
