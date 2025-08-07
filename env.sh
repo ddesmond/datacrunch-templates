@@ -29,5 +29,5 @@ export COMFY_INSTANCE=developer
 #C OMFY
 export COMFYUI_PATH=/opt/ComfyUI
 export COMFYUI_MODEL_PATH=/opt/models
-export COMFYUI_UI_PORT=8188
+export COMFYUI_UI_PORT=8201
 export COMFYUI_OUTPUTS_PATH=/outputs

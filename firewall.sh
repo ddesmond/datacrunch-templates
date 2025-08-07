@@ -9,5 +9,5 @@ systemctl start fail2ban
 systemctl enable fail2ban
 apt install ufw -y
 ufw allow ssh
-ufw allow 8188
+ufw allow 8201
 ufw enable
