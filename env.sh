@@ -4,9 +4,6 @@ echo "LOAD env vars"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export PIP_ROOT_USER_ACTION=ignore
-export COMFYUI_PATH=/opt/ComfyUI
-export COMFYUI_MODEL_PATH=/opt/models
-
 
 
 # Setup envs here
@@ -19,3 +16,9 @@ export COMFY_INSTANCE=developer
 
 # export TCNN_CUDA_ARCHITECTURES=86
 # export TORCH_CUDA_ARCH_LIST=8.6
+
+#C OMFY
+export COMFYUI_PATH=/opt/ComfyUI
+export COMFYUI_MODEL_PATH=/opt/models
+export COMFYUI_UI_PORT=8188
+export COMFYUI_OUTPUTS_PATH=/outputs

@@ -8,7 +8,7 @@ then
    echo "MODELS is a symlink to a directory. Pass."
 else
   echo "MODELS is a not symlink to a directory"
-  rm -rf models/
+  rm -rf /opt/ComfyUI/models/
   ln -sf /opt/models /opt/ComfyUI
   ls -la .
   echo "Models relinked. Happy Comfying!"

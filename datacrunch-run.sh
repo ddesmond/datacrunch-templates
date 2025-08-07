@@ -6,11 +6,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export PIP_ROOT_USER_ACTION=ignore
 
-#C OMFY
-export COMFYUI_PATH=/opt/ComfyUI
-export COMFYUI_MODEL_PATH=/opt/models
-export COMFYUI_UI_PORT=8188
-export COMFYUI_OUTPUTS_PATH=/outputs
 
 echo "Setting up Comfy!"
 cd /opt
