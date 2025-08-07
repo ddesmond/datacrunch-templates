@@ -31,6 +31,10 @@ Models download to /opt/models and is ln -s on first run to /opt/ComfyUI/models.
 Add your keys via CLI to access private models
 
 
+### Logs
+Lodgy is available from the begging of the installation, access it via web UI at http://IP_NODE:8080
+Setup your password in the lodgy sh file.
+
 <hr>
 
 #### More info
