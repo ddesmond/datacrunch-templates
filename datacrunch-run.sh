@@ -36,7 +36,7 @@ pip install --upgrade pip
 
 echo "----------------------------------"
 echo "Run: UV"
-curl -LsSf https://astral.sh/uv/install.sh | sh     # or source setup_uv.sh
+source setup_uv.sh
 
 echo "----------------------------------"
 echo "Run: Deps"
