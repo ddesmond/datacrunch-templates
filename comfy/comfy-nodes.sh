@@ -42,7 +42,7 @@ do \
         git clone "$repo"; \
     fi; \
     if [ -f "/opt/ComfyUI/custom_nodes/$repo_dir/requirements.txt" ]; then \
-        uv pip install -r "/opt/ComfyUI/custom_nodes/$repo_dir/requirements.txt"; \
+        uv pip install -r "/opt/ComfyUI/custom_nodes/$repo_dir/requirements.txt" --system; \
     fi; \
     if [ -f "/opt/ComfyUI/custom_nodes/$repo_dir/install.py" ]; then \
         python "/opt/ComfyUI/custom_nodes/$repo_dir/install.py"; \
