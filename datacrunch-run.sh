@@ -1,4 +1,7 @@
 #!/bin/bash
+# written by ddesmond / Aleks Katunar
+# RUN THIS FROM CLI OR DATACRUNCH DASHBOARD as a script!
+
 echo "----------------------------------"
 echo "Setup work ENVS"
 # SYSTEM
