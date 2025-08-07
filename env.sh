@@ -1,4 +1,12 @@
 # add envs here
+
+source ~/.bashrc
+
+echo "Run: Eval pyenv and set global"
+eval "$(pyenv init -)"
+pyenv global 3.12
+
+
 echo "LOAD env vars"
 
 export PYENV_ROOT="$HOME/.pyenv"
