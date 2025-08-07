@@ -1,4 +1,7 @@
 # add envs here
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+export PIP_ROOT_USER_ACTION=ignore
 
 source ~/.bashrc
 
@@ -9,9 +12,7 @@ pyenv global 3.12
 
 echo "LOAD env vars"
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-export PIP_ROOT_USER_ACTION=ignore
+
 
 
 # Setup envs here
