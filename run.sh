@@ -4,18 +4,6 @@ echo "_____ WARMUP COMFYUI _____"
 # LOAD ENVS
 source /opt/datacrunch-templates/env.sh
 
-# link back models here
-if [[ -L /opt/ComfyUI/models ]]
-then
-   echo "MODELS is a symlink to a directory. Pass."
-else
-  echo "MODELS is a not symlink to a directory"
-  rm -rf /opt/ComfyUI/models
-  ln -sf /opt/models /opt/ComfyUI
-  ls -la /opt/ComfyUI/models
-  echo "Models relinked. Happy Comfying!"
-fi
-
 # set outputs
 if [[ -L $COMFYUI_OUTPUTS_PATH ]]
 then
