@@ -21,6 +21,9 @@ then
 else
   mkdir -p $COMFYUI_OUTPUTS_PATH
   echo "Output path setup"
+  # copy user data - we asume this is a fresh install!
+  # backup your user data first!
+  cp -r /opt/datacrunch-templates/comfy_data/user /opt/ComfyUI/
 fi
 
 # LOAD ENVS
