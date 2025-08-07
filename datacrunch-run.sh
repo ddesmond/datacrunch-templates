@@ -3,6 +3,7 @@
 # written by ddesmond / Aleks Katunar
 # RUN THIS FROM CLI OR DATACRUNCH DASHBOARD as a script!
 
+
 echo "----------------------------------"
 echo "Setup work ENVS"
 # SYSTEM
@@ -18,6 +19,9 @@ echo "Run: Clone datacrunch comfy setup"
 git clone --depth 1 https://github.com/ddesmond/datacrunch-templates.git
 cd /opt/datacrunch-templates
 git pull
+
+echo "----------------------------------"
+source tools/lodgy.sh
 
 echo "----------------------------------"
 # rundown
