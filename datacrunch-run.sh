@@ -37,6 +37,7 @@ pip install --upgrade pip
 echo "----------------------------------"
 echo "Run: UV"
 source setup_uv.sh
+source ~/.bashrc
 
 echo "----------------------------------"
 echo "Run: Deps"
