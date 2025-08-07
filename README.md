@@ -1,7 +1,12 @@
 ### DataCrunch.io Yum Yum Comfy Setup
-![](assets/dclogo.png)
 
-Use the [datacrunch-run.sh](datacrunch-run.sh) script as startup or run directly from shell.
+<img src="https://github.com/ddesmond/datacrunch-templates/blob/main/assets/dclogo.png?raw=true" width="100">
+
+<hr>
+
+Use the datacrunch-run.sh script as startup or run directly from shell.
+
+<hr>
 
 ### ENV
 Setup your env vars in the files
@@ -25,6 +30,8 @@ Models download to /opt/models and is ln -s on first run to /opt/ComfyUI/models.
 ### Huggingface
 Add your keys via CLI to access private models
 
+
+<hr>
 
 #### More info
 Time to install is about 10 minutes.
