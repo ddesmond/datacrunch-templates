@@ -6,6 +6,7 @@
 echo "----------------------------------"
 echo "Setup work ENVS"
 # SYSTEM
+export HOME="/root"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export PIP_ROOT_USER_ACTION=ignore
