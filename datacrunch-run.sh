@@ -32,6 +32,9 @@ pyenv global 3.12
 echo "Run: Update pip"
 pip install --upgrade pip
 
+echo "Run: UV"
+curl -LsSf https://astral.sh/uv/install.sh | sh     # or source setup_uv.sh
+
 echo "Run: Deps"
 source deps.sh #> /opt/logs-deps.txt
 
