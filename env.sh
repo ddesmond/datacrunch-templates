@@ -1,7 +1,13 @@
 # add envs here
 echo "LOAD env vars"
 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
 export PIP_ROOT_USER_ACTION=ignore
+export COMFYUI_PATH=/opt/ComfyUI
+export COMFYUI_MODEL_PATH=/opt/models
+
+
 
 # Setup envs here
 export HF_TOKEN=""

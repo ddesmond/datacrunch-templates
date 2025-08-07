@@ -19,4 +19,4 @@ source /opt/datacrunch-templates/env.sh
 echo "_____ Startup COMFYUI _____"
 cd /opt/ComfyUI
 
-python3 main.py --listen 0.0.0.0 --port 8188 --output-directory /outputs/ --disable-xformers --preview-method auto
+python3 main.py --listen 0.0.0.0 --port $COMFYUI_UI_PORT --output-directory $COMFY_OUTPUTS_PATH/ --disable-xformers --preview-method auto
