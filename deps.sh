@@ -9,4 +9,4 @@ apt-get install -y --no-install-recommends \
 
 uv pip install packaging setuptools wheel --system
 uv pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128 --system
-uv pip install opencv-python pyyaml gdown triton comfy-cli PyOpenGL-accelerate install sageattention --system
+uv pip install opencv-python pyyaml gdown triton comfy-cli PyOpenGL-accelerate sageattention --system
