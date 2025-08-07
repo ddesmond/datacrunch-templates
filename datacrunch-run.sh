@@ -14,7 +14,7 @@ echo "----------------------------------"
 echo "Setting up Comfy!"
 cd /opt
 echo "Run: Clone datacrunch comfy setup"
-git clone https://github.com/ddesmond/datacrunch-templates.git
+git clone --depth 1 https://github.com/ddesmond/datacrunch-templates.git
 cd /opt/datacrunch-templates
 git pull
 

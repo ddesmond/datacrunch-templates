@@ -28,9 +28,9 @@ do \
     cd /opt/ComfyUI/custom_nodes; \
     repo_dir=$(basename "$repo" .git); \
     if [ "$repo" = "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git" ]; then \
-        git clone --recursive "$repo"; \
+        git clone --depth 1 --recursive "$repo"; \
     else \
-        git clone "$repo"; \
+        git clone --depth 1 "$repo"; \
     fi; \
     if [ -f "/opt/ComfyUI/custom_nodes/$repo_dir/requirements.txt" ]; then \
         uv pip install -r "/opt/ComfyUI/custom_nodes/$repo_dir/requirements.txt" --system; \

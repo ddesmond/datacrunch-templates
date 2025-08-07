@@ -3,7 +3,7 @@
 # install fresh pull
 echo "Run: Install ComfyUI"
 
-cd /opt && git clone https://github.com/comfyanonymous/ComfyUI.git
+cd /opt && git clone --depth 1 https://github.com/comfyanonymous/ComfyUI.git
 cd /opt/ComfyUI
 
 
