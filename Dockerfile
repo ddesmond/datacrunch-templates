@@ -7,7 +7,5 @@ RUN apt update -y && apt install -y \
     wget
 
 
-RUN curl https://raw.githubusercontent.com/ddesmond/datacrunch-templates/refs/heads/main/datacrunch-run.sh | bash &
+CMD ["curl https://raw.githubusercontent.com/ddesmond/datacrunch-templates/refs/heads/main/datacrunch-run.sh | bash"]
 
-
-ENTRYPOINT ["top", "-b"]
