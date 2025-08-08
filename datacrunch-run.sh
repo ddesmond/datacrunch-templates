@@ -61,7 +61,8 @@ source ./structure.sh #> /opt/logs-nodes.txt
 
 echo "----------------------------------"
 echo "Run: Gradio App Downloader"
-source tools/gradio_downloader.sh
+cd /opt/datacrunch-templates/tools
+source gradio_downloader.sh
 
 echo "----------------------------------"
 echo "Run: Setup Comfy"

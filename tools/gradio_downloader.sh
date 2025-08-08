@@ -2,7 +2,7 @@
 # add gradio app for background model downloads
 
 cd /opt && git clone https://github.com/ddesmond/gradio-downloader.git
-cd gradio-downloader && pip install -r requirements.txt
+cd gradio-downloader && uv pip install -r requirements.txt
 cd app
 
 # reparse model downloads
