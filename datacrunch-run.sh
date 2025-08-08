@@ -13,14 +13,14 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 export PIP_ROOT_USER_ACTION=ignore
 
 echo "----------------------------------"
-echo "Setting up Comfy!"
+echo "Setting up YUM YUM !"
 cd /opt
 echo "Run: Clone datacrunch comfy setup"
 git clone --depth 1 https://github.com/ddesmond/datacrunch-templates.git
 cd /opt/datacrunch-templates
 git pull
 
-echo "----------------------------------"
+echo "------------- LOGDY ---------------------"
 source tools/lodgy.sh
 
 echo "----------------------------------"
@@ -58,6 +58,10 @@ echo "----------------------------------"
 echo "Run: Setup Comfy models structure"
 cd /opt/datacrunch-templates/models
 source ./structure.sh #> /opt/logs-nodes.txt
+
+echo "----------------------------------"
+echo "Run: Gradio App Downloader"
+source tools/gradio_downloader.sh
 
 echo "----------------------------------"
 echo "Run: Setup Comfy"
