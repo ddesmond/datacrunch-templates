@@ -5,4 +5,8 @@ cd /opt && git clone https://github.com/ddesmond/gradio-downloader.git
 cd gradio-downloader && pip install -r requirements.txt
 cd app
 
-gradio gradio_downloader.py
+# reparse model downloads
+python parse_models_downloads.py /opt/datacrunch-templates/models
+
+# start gradio app
+gradio gradio_downloader.py &
