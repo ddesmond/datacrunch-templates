@@ -30,6 +30,7 @@ https://github.com/chflame163/ComfyUI_LayerStyle_Advance.git \
 https://github.com/BadCafeCode/masquerade-nodes-comfyui.git \
 https://github.com/1038lab/ComfyUI-RMBG.git \
 https://github.com/crystian/ComfyUI-Crystools \
+https://github.com/storyicon/comfyui_segment_anything \
 https://github.com/ltdrdata/ComfyUI-Manager \
 https://github.com/liusida/ComfyUI-Login.git \
 https://github.com/M1kep/ComfyLiterals.git; \
