@@ -20,4 +20,4 @@ aria2c -d $MODELS/upscale_models https://huggingface.co/FacehugmanIII/4x_foolhar
 aria2c -d $MODELS/upscale_models https://huggingface.co/Kim2091/UltraSharpV2/resolve/main/4x-UltraSharpV2.safetensors -o 4x-UltraSharpV2.safetensors
 
 # controlnet
-aria2c -d $MODELS/controlnet https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro/blob/main/diffusion_pytorch_model.safetensors  -o FLUX.1-dev-ControlNet-Union-Pro.safetensors
+aria2c -d $MODELS/controlnet https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro/resolve/main/diffusion_pytorch_model.safetensors -o FLUX.1-dev-ControlNet-Union-Pro.safetensors
