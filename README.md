@@ -39,3 +39,6 @@ Setup your password in the lodgy sh file.
 
 #### More info
 Time to install is about 10 minutes.
+
+Gradio downloader is on port 8105
+Comfy is on port 8201
