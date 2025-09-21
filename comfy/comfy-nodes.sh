@@ -29,6 +29,9 @@ https://github.com/kijai/ComfyUI-WanVideoWrapper.git \
 https://github.com/chflame163/ComfyUI_LayerStyle_Advance.git \
 https://github.com/BadCafeCode/masquerade-nodes-comfyui.git \
 https://github.com/1038lab/ComfyUI-RMBG.git \
+https://github.com/AIWarper/ComfyUI-NormalCrafterWrapper.git \
+https://github.com/ShmuelRonen/ComfyUI-VideoUpscale_WithModel.git \
+https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git \
 https://github.com/crystian/ComfyUI-Crystools \
 https://github.com/storyicon/comfyui_segment_anything \
 https://github.com/ltdrdata/ComfyUI-Manager \
