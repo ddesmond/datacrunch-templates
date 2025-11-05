@@ -34,6 +34,7 @@ https://github.com/ShmuelRonen/ComfyUI-VideoUpscale_WithModel.git \
 https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git \
 https://github.com/crystian/ComfyUI-Crystools \
 https://github.com/storyicon/comfyui_segment_anything \
+https://github.com/wildminder/ComfyUI-DyPE.git \
 https://github.com/ltdrdata/ComfyUI-Manager \
 https://github.com/liusida/ComfyUI-Login.git \
 https://github.com/M1kep/ComfyLiterals.git; \
