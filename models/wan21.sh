@@ -14,5 +14,5 @@ aria2c -d  $MODELS/text_encoders https://huggingface.co/Comfy-Org/Wan_2.2_ComfyU
 
 # loras
 aria2c -d $MODELS/loras https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan21_CausVid_14B_T2V_lora_rank32.safetensors -o Wan21_CausVid_14B_T2V_lora_rank32.safetensors
-aria2c -d $MODELS/https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors -o wan_2.1_vae.safetensors
+aria2c -d $MODELS/vae https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors -o wan_2.1_vae.safetensors
 aria2c -d $MODELS/clip_vision https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors -o clip_vision_h.safetensors
