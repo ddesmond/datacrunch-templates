@@ -38,7 +38,7 @@ https://github.com/wildminder/ComfyUI-DyPE.git \
 https://github.com/ltdrdata/ComfyUI-Manager \
 https://github.com/liusida/ComfyUI-Login.git \
 https://github.com/M1kep/ComfyLiterals.git; \
-https://github.com/zhongpei/ComfyUI-InstructIR; \
+
 do \
     cd /opt/ComfyUI/custom_nodes; \
     repo_dir=$(basename "$repo" .git); \
