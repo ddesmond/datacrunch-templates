@@ -31,3 +31,5 @@ export COMFYUI_PATH=/opt/ComfyUI
 export COMFYUI_MODEL_PATH=/opt/models
 export COMFYUI_UI_PORT=8201
 export COMFYUI_OUTPUTS_PATH=/outputs
+
+export TORCH_CACHE_DIR=/root/.cache/torch

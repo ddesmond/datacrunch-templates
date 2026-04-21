@@ -12,6 +12,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export PIP_ROOT_USER_ACTION=ignore
 
+mkdir -p ~/.cache/torch
+export TORCH_CACHE_DIR=/root/.cache/torch
+
+
 echo "----------------------------------"
 echo "Setting up YUM YUM !"
 cd /opt
