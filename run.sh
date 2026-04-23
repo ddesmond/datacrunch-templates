@@ -19,6 +19,7 @@ fi
 # fix manager ini
 mkdir -p /opt/ComfyUI/user
 mkdir -p /opt/ComfyUI/user/__manager
+mkdir -p /opt/ComfyUI/user/__manager/snapshots
 chmod -R 777 /opt/ComfyUI/user
 
 cp -r /opt/datacrunch-templates/comfy_data/user/config.ini /opt/ComfyUI/user/__manager/config.ini
