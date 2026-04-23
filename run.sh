@@ -16,6 +16,11 @@ else
   cp -r /opt/datacrunch-templates/comfy_data/user /opt/ComfyUI/
 fi
 
+# fix manager ini
+cp -r /opt/datacrunch-templates/comfy_data/user/config.ini /opt/ComfyUI/user/__manager/config.ini
+
+
+
 
 
 echo "_____ Startup COMFYUI _____"
