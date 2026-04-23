@@ -24,7 +24,7 @@ chmod -R 777 /opt/ComfyUI/user
 cp -r /opt/datacrunch-templates/comfy_data/user/config.ini /opt/ComfyUI/user/__manager/config.ini
 
 # add snapshot
-cp -r /opt/datacrunch-templates/comfy_data/custom-node-list.json /opt/ComfyUI/user/__manager/snapshots/2026-04-23_05-06-54_snapshot.json
+cp -r /opt/datacrunch-templates/comfy_data/custom-node-list.json /opt/ComfyUI/user/__manager/snapshots/2026-04-01_05-06-54_snapshot.json
 
 
 
